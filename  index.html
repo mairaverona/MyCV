@@ -8,6 +8,7 @@
       </ul>
     </nav>
     <style>
+      /* Styling for the entire page */
       body {
         margin: 0;
         padding: 0;
@@ -15,7 +16,7 @@
         font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
           "Lucida Sans", Arial, sans-serif;
       }
-
+      /* Grid layout for the main content */
       .content_wrapped {
         /* So that I have 2 columns - one on each side */
         display: grid;
@@ -26,46 +27,46 @@
         padding: 20px;
         background-color: #ffffff;
       }
-
+      /* Styling for main headings */
       h2 {
         font-size: 28px;
         text-align: center;
         color: #333333;
       }
-
+      /* Subheading style */
       h3 {
         color: darkslategray;
         font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
           "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
         text-align: center;
       }
-
+      /* Justified paragraph text */
       p {
         text-align: justify;
         font-size: 14px;
       }
-
+      /* Profile image styling */
       .profile-image {
         display: block;
-        margin: 0 auto;
+        margin: 0 auto; /* Center the image horizontally */
         max-width: 150px;
         height: auto;
-        border-radius: 30%;
-        overflow: hidden;
+        border-radius: 30%; /* Rounded corners */
+        overflow: hidden; /* Hide any overflowing content */
       }
-
+      /* Styling for the left column */
       .left-column {
         grid-column: 1;
         background-color: lightgray;
         padding: 0px 6px 0px 6px;
         font-size: 14px;
       }
-
+      /* Styling for the right column */
       .right-column {
         grid-column: 2;
         font-size: 14px;
       }
-
+      /* About me section styling */
       .about-me {
         font-size: 15px;
       }
